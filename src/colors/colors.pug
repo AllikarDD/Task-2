@@ -1,11 +1,10 @@
 //- link(rel="stylesheet", href="./colors.styl")
-div.colors
-    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus odio officiis ratione minus natus perferendis? Omnis quo ullam facilis modi maiores consequatur totam, non, minima nihil ipsam quae repellendus.
-    p
-    
-
--
-    var list = ["Uno", "Dos", "Tres",
-        "Cuatro", "Cinco", "Seis"]
-each item in list
-  li= item
+.colors
+    include ./example/colors__example.pug
+    +showColor('Dark Shade 100%','#1F2041','#1F2041')
+    +showColor('Dark Shade 75%','#1F2041','#1F2041BF')
+    +showColor('Dark Shade 50%','#1F2041','#1F204180')
+    +showColor('Dark Shade 25%','#1F2041','#1F204140')
+    +showColor('Dark Shade 5%','#1F2041','#1F20410D')
+    +showColor('Purple','#BC9CFF','#BC9CFF')
+    +showColor('Green','#6FCF97','#6FCF97')
