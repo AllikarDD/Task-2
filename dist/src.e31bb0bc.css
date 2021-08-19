@@ -1,0 +1,98 @@
+h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2041;
+}
+h2 {
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2041;
+}
+h3 {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2041;
+}
+body {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(31,32,65,0.749);
+  margin: 0px;
+  padding: 0px;
+  background: #e5e5e5;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.colors {
+  margin-left: 150px;
+  margin-top: 145px;
+}
+
+.colors__example {
+  display: flex;
+  height: 70px;
+  padding-bottom: 20px;
+}
+.color__example__preview {
+  width: 70px;
+  background-color: #1f2041;
+  border-radius: 6px;
+}
+.color__example__text {
+  padding-left: 40px;
+  font-size: 19px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.color__example__text h2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.color__example__text p {
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/Montserrat-Regular.21b801b8.eot');
+    src: local('☺'), url('/Montserrat-Regular.1b35f2ae.woff') format('woff'), url('/Montserrat-Regular.44e710c1.ttf') format('truetype'), url('/Montserrat-Regular.6f6bdac5.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/Montserrat-Bold.70d570c7.eot');
+    src: local('☺'), url('/Montserrat-Bold.73e94c2c.woff') format('woff'), url('/Montserrat-Bold.f3410305.ttf') format('truetype'), url('/Montserrat-Bold.0fff2121.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
